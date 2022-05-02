@@ -1,9 +1,76 @@
-h1 {
-    background-color:rgb(255, 217, 0) ;
+
+#main {
+    background-color:white;
+    color: rgb(218, 165, 32);
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
     color: black;
+    background-color: gold;
+    border-radius: 10px;
+    margin: 40px;
+   
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+a:visited {
+    color:black;
+}
+
+body {
+    color: black;
+    background-color: whitesmoke;
     text-align: center;
 }
 
-img {
-    justify-content: center;
+.arroz {
+    color: green;
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.salmon {
+    color: salmon;
+    background-color: rgb(232, 231, 231);
+}
+
+.tira {
+    color: brown;
+    background-color: beige;
+}
+
+ul {
+    list-style-type: none;
+}
+ol {
+    text-align: justify;
+}
+
+img {
+    height: auto;
+    width: auto;
+    
+}
+
+.odin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 25%;
+}
+
+img.image-tira {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 25%;
+}
+
+
