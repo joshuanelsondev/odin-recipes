@@ -27,10 +27,6 @@ a:visited {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.salmon {
-    color: salmon;
-    background-color: rgb(232, 231, 231);
-}
 
 .tira {
     color: brown;
@@ -67,7 +63,7 @@ img.image-tira {
 }
 
 /* New Code after learning about flexbox */
-body {
+#main {
     display: flex;
     flex-direction: column;
    
@@ -77,15 +73,18 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    background-color: #e6e6e654;
+  
+
 }
 
 h1.header {
     color: rgb(225 169 79);
-    background-color: #e6e6e654;
-    padding: 8px;
-    flex: 1;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, san-serif;
-    margin-top: 0;
+
+
 }
 
 .odin-image {
@@ -110,4 +109,15 @@ h1.header {
 a {
     text-decoration: none;
     
+}
+
+.salmon {
+    color: salmon;
+    background-color: rgb(232, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+
+.salmon-container {
+    display: flex;
 }
