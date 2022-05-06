@@ -63,11 +63,11 @@ img.image-tira {
 }
 
 /* New Code after learning about flexbox */
-#main {
+/* #main {
     display: flex;
     flex-direction: column;
    
-}
+} */
 
 .main-header {
     display: flex;
@@ -75,8 +75,7 @@ img.image-tira {
     padding: 0;
     justify-content: center;
     background-color: #e6e6e654;
-  
-
+    
 }
 
 h1.header {
@@ -111,13 +110,33 @@ a {
     
 }
 
-.salmon {
+header.salmon {
     color: salmon;
     background-color: rgb(232, 231, 231);
     display: flex;
     justify-content: center;
 }
 
-.salmon-container {
+.salmon-img {
+    display: flex;
+    justify-content: center;
+}
+
+.salmon-card {
     display: flex;
 }
+
+div.card {
+    flex: 1;
+    margin: 16px;
+  
+}
+
+.card .sub {
+    display: flex;
+    justify-content: center;
+    color: salmon;
+    background-color: rgb(232, 231, 231);
+}
+
+/* Move description to be under the image and have ingredients and steps stacked on top of each other */
