@@ -1,13 +1,15 @@
 
 
 
-button {
+ button {
     color: black;
     background-color: rgb(225 169 79);
     border-radius: 10px;
     margin: 40px;
     font-family: Georgia, Arial, sans-serif;
-   
+    width: 10em;
+    height: 3em;
+    
 }
 
 
@@ -104,10 +106,6 @@ h1.header {
 .buttons {
     display: flex;
     justify-content: space-evenly;
-}
-
-button {
-    width: 10em;
 }
 
 a {
