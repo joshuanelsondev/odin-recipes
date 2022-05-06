@@ -1,33 +1,25 @@
 
-#main {
-    background-color:white;
-    color: rgb(218, 165, 32);
-    text-align: center;
-    font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 
 button {
     color: black;
-    background-color: gold;
+    background-color: rgb(225 169 79);
     border-radius: 10px;
     margin: 40px;
    
 }
 
-a:hover {
-    text-transform: uppercase;
+
+button:hover {
+    background-color: silver;
+    
 }
 a:visited {
     color:black;
     text-decoration: none;
 }
 
-body {
-    color: black;
-    background-color: whitesmoke;
-    text-align: center;
-}
+
 
 .arroz {
     color: green;
@@ -57,14 +49,14 @@ img {
     width: auto;
     
 }
-
+/* 
 .odin {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 25%;
-}
+} */
 
 img.image-tira {
     display: block;
@@ -74,4 +66,48 @@ img.image-tira {
     width: 25%;
 }
 
+/* New Code after learning about flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+   
+}
 
+.main-header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+h1.header {
+    color: rgb(225 169 79);
+    background-color: #e6e6e654;
+    padding: 8px;
+    flex: 1;
+    font-family: Georgia, 'Times New Roman', Times, san-serif;
+    margin-top: 0;
+}
+
+.odin-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 16px;
+}
+
+.odin {
+    width: 400px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
