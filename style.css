@@ -147,11 +147,11 @@ ol {
 }
 
 .salmon button {
-    background-color: salmon;
+    background-color: rgb(232, 231, 231);
 }
 
 .salmon button:hover {
-    background-color: silver;
+    background-color: salmon;
 }
 
 /* Arroz page items */
@@ -183,7 +183,11 @@ header.arroz {
     justify-content: center;
 }
 
-.footer-arroz button {
+.arroz button {
+    background-color: orange;
+}
+
+.arroz button:hover {
     background-color: green;
 }
 
