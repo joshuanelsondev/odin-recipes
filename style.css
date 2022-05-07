@@ -1,7 +1,7 @@
 
 
 
- button {
+button {
     color: black;
     background-color: rgb(225 169 79);
     border-radius: 10px;
@@ -17,12 +17,6 @@ button:hover {
     background-color: silver;
     
 }
-
-a:visited {
-    color:black;
-    text-decoration: none;
-}
-
 
 
 }
@@ -154,6 +148,10 @@ ol {
 
 .salmon button {
     background-color: salmon;
+}
+
+.salmon button:hover {
+    background-color: silver;
 }
 
 /* Arroz page items */
