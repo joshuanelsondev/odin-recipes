@@ -194,4 +194,41 @@ header.arroz {
     background-color: green;
 }
 
-/* Fix button color */
+/* Tiramisu page items */
+
+header.tira {
+    color: brown;
+    background-color: mintcream;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tira-img {
+    display: flex;
+    justify-content: center;
+}
+
+.tira-cards {
+    display: flex;
+}
+
+.tira-sub {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    background-color: mintcream;
+    margin-top: 0;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tira button {
+    background-color: mintcream;
+}
+
+.tira button:hover {
+    background-color: brown;
+}
