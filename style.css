@@ -25,10 +25,6 @@ a:visited {
 
 
 
-.arroz {
-    color: green;
-    background-color: orange;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -115,12 +111,14 @@ a {
 
 
 /* Salmon page items */
-
+header {
+    display: flex;
+    justify-content: center;
+}
 header.salmon {
     color: salmon;
     background-color: rgb(232, 231, 231);
-    display: flex;
-    justify-content: center;
+
 }
 
 .salmon-img {
@@ -128,7 +126,7 @@ header.salmon {
     justify-content: center;
 }
 
-.salmon-card {
+.salmon-cards {
     display: flex;
 }
 
@@ -138,24 +136,57 @@ div.card {
   
 }
 
-.card .sub {
+.salmon-sub {
     display: flex;
     justify-content: center;
     color: salmon;
     background-color: rgb(232, 231, 231);
 }
 
-ul.salmon {
+ul {
     list-style: square;
     line-height: 200%;
 }
 
-button.salmon-footer {
+ol {
+    line-height: 200%;
+}
+
+.salmon button {
     background-color: salmon;
 }
 
-button.salmon-footer:hover {
-    background-color: silver;
+/* Arroz page items */
+
+header.arroz {
+    color: green;
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Move description to be under the image and have ingredients and steps stacked on top of each other */
+.arroz-img {
+    display: flex;
+    justify-content: center;
+}
+
+.arroz-cards {
+    display: flex;
+}
+
+.arroz-sub {
+    display: flex;
+    justify-content: center;
+    color: green;
+    background-color: orange;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-arroz button {
+    background-color: green;
+}
+
+/* Fix button color */
