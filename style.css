@@ -118,6 +118,7 @@ header.salmon {
 .salmon-img {
     display: flex;
     justify-content: center;
+    
 }
 
 .salmon-cards {
@@ -135,6 +136,7 @@ div.card {
     justify-content: center;
     color: salmon;
     background-color: rgb(232, 231, 231);
+    margin-top: 0;
 }
 
 ul {
@@ -176,6 +178,7 @@ header.arroz {
     justify-content: center;
     color: green;
     background-color: orange;
+    margin-top: 0;
 }
 
 .quote {
