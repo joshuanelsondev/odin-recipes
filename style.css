@@ -62,7 +62,10 @@ img.image-tira {
 } */
 
 /* Main page items */
-
+main {
+    display: flex;
+    margin: 0;
+}
 .main-header {
     display: flex;
     margin: 0;
@@ -118,7 +121,11 @@ header.salmon {
 .salmon-img {
     display: flex;
     justify-content: center;
-    
+}
+
+img .salmon {
+    height: auto;
+    width: 20em;
 }
 
 .salmon-cards {
@@ -169,6 +176,11 @@ header.arroz {
     justify-content: center;
 }
 
+img .arroz {
+    height: auto;
+    width: 20em;
+}
+
 .arroz-cards {
     display: flex;
 }
@@ -205,6 +217,11 @@ header.tira {
 .tira-img {
     display: flex;
     justify-content: center;
+}
+
+img .tira {
+    height: auto;
+    width: 20em;
 }
 
 .tira-cards {
